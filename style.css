@@ -1,0 +1,17 @@
+.faq h2 {
+  color: #2a2a2a;
+  margin-top: 1.5em;
+  font-size: 1.2em;
+}
+
+.faq p {
+  margin-bottom: 1em;
+  color: #555;
+  line-height: 1.6;
+}
+
+footer nav a {
+  margin-right: 1em;
+  text-decoration: none;
+  color: #3366cc;
+}
