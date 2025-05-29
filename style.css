@@ -48,14 +48,19 @@ body {
   color: var(--text-dark);
   line-height: 1.6;
 }
-.section {
+section < div {
   background-color: var(--bg-box);
   padding: calc(var(--spacing) * 2);
   margin-bottom: var(--spacing);
   border-radius: var(--border-radius);
   box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-  border: 1px dashed #ccc; /* nur zum Debuggen, später löschen */
-}
+
+  /* NEU ↓ */
+  border: 1px solid rgba(0,0,0,0.05); /* dünn, leicht sichtbar */
+  /* oder komplett entfernen mit: */
+  /* border: none; *
+  }
+
 h1, h2, h3 {
   margin-top: 0;
   font-weight: 600;
