@@ -13,7 +13,6 @@ header img {
   height: auto;
   display: block;
   margin: 0 auto 32px;
-  padding-top: 16px
 }
 
 p {
@@ -36,7 +35,7 @@ p {
 
 .logo {
   max-width: 180px;
-  margin-top: 32px;
+  margin-top: 64px;
   margin-bottom: var(--spacing);
   display: block;
   margin-left: auto;
