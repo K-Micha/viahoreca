@@ -49,6 +49,7 @@ body {
   line-height: 1.6;
 }
 section < div {
+  background-color: var(--bg-main); /* statt --bg-box */
   border: none;
   background-color: var(--bg-box);
   padding: calc(var(--spacing) * 2);
