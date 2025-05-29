@@ -61,11 +61,14 @@ section div {
   }
 
 .info-box {
-  background-color: var(--bg-box);
-  padding: calc(var(--spacing) * 2);
-  border-radius: var(--border-radius);
-  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-  margin-bottom: var(--spacing);
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  text-align: center;
+}
+
 }
 
 h1, h2, h3 {
