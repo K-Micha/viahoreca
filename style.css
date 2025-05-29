@@ -61,8 +61,9 @@ section div {
   }
 
 .info-box {
+  background-color: var(--bg-box;
   border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
   padding: 20px;
   margin: 20px auto;
   max-width: 600px;
