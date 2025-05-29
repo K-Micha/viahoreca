@@ -7,14 +7,12 @@ main {
 
 header {
   margin-bottom: 40px;
-  magrin-top: 32px;
 }
 header img {
-  magrin-top: 32px;
   max-width: 200px;
   height: auto;
   display: block;
-  margin: 0 auto 32px;
+  margin: 32px auto 32px;
 }
 
 p {
