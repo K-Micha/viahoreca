@@ -6,6 +6,7 @@ main {
 }
 
 header {
+  magrin-top: 32px;
   margin-bottom: 40px;
 }
 header img {
