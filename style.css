@@ -14,6 +14,7 @@ header img {
   display: block;
   margin: 0 auto 32px;
 }
+
 p {
   font-size: 1.2em;
   line-height: 1.5em;
@@ -22,15 +23,16 @@ p {
 }
 
 :root {
-  --bg-main: #fdfaf5;           /* sehr helles Beige (Hintergrund) */
-  --bg-box: #f2eee9;            /* leicht dunkler (Blöcke) */
-  --text-dark: #333333;         /* fast schwarz für Texte */
-  --text-muted: #777777;        /* für sekundäre Texte */
-  --accent: #005578;            /* dezenter Blauakzent (Buttons etc.) */
+  --bg-main: #fdfaf5;         /* sehr helles Beige (Hintergrund) */
+  --bg-box: #f2eee9;          /* leicht dunkler (Blöcke) */
+  --text-dark: #333333;       /* fast schwarz für Texte */
+  --text-muted: #777777;      /* für sekundäre Texte */
+  --accent: #005578;          /* dezenter Blauakzent */
   --border-radius: 8px;
   --spacing: 16px;
   --font-main: 'Inter', sans-serif;
 }
+
 .logo {
   max-width: 180px;
   margin-bottom: var(--spacing);
@@ -40,28 +42,27 @@ p {
 }
 
 body {
-  background-color: #fdfaf5; /* Haupt-Hintergrund */
-  font-family: 'Inter', sans-serif;
+  background-color: var(--bg-main);
+  font-family: var(--font-main);
   font-size: 16px;
-  color: #333;
+  color: var(--text-dark);
   line-height: 1.6;
   margin: 0;
   padding: 0;
 }
+
 section div {
-  background-color: var(--bg-main); /* statt --bg-box */
-  border: none;
   background-color: var(--bg-box);
+  border: none;
   padding: calc(var(--spacing) * 2);
   margin-bottom: var(--spacing);
   border-radius: var(--border-radius);
-  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
- 
-  /* border: none; *
-  }
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  /* border: none; */
+}
 
 .info-box {
-  background-color: var(--bg-box;
+  background-color: var(--bg-box);
   border-radius: 10px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
   padding: 20px;
@@ -95,6 +96,7 @@ p {
   margin-top: 1.5em;
   font-size: 1.2em;
 }
+
 .button {
   display: inline-block;
   background-color: var(--accent);
@@ -123,3 +125,4 @@ footer nav a {
   text-decoration: none;
   color: #3366cc;
 }
+
