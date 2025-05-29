@@ -9,11 +9,11 @@ header {
   margin-bottom: 40px;
 }
 header img {
-  magrin-top: 32px;
   max-width: 200px;
   height: auto;
   display: block;
-  margin: 32px auto 32px;
+  margin: 0 auto 32px;
+  padding-top: 16px
 }
 
 p {
