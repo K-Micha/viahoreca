@@ -57,10 +57,6 @@ section div {
   border-radius: var(--border-radius);
   box-shadow: 0 2px 6px rgba(0,0,0,0.05);
  
-
-  /* NEU ↓ */
-  border: 1px solid rgba(0,0,0,0.05); /* dünn, leicht sichtbar */
-  /* oder komplett entfernen mit: */
   /* border: none; *
   }
 
