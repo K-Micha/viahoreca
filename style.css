@@ -64,6 +64,14 @@ section div {
   /* border: none; *
   }
 
+.info-box {
+  background-color: var(--bg-box);
+  padding: calc(var(--spacing) * 2);
+  border-radius: var(--border-radius);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  margin-bottom: var(--spacing);
+}
+
 h1, h2, h3 {
   margin-top: 0;
   font-weight: 600;
