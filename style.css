@@ -98,6 +98,8 @@ p {
 }
 
 .button {
+  margin-top: 32px;  /* vorher evtl. 24px – jetzt mehr Luft */
+  margin-bottom: 40px; /* für gleichmäßigen Abstand nach unten */
   display: inline-block;
   background-color: var(--accent);
   color: white;
