@@ -1,7 +1,6 @@
 User-agent: *
-Allow: /
-Sitemap: https://viahoreca.com/sitemap.xml
-
 Disallow: /impressum.html
 Disallow: /datenschutz.html
 Disallow: /faq.html
+
+Sitemap: https://viahoreca.com/sitemap.xml
