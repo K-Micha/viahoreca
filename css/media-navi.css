@@ -1,0 +1,126 @@
+
+@media screen and (min-width: 600px) and (max-width: 868px) {
+  #menu {
+    transition: left 0.3s ease;
+  }
+
+  #arrow-toggle.open {
+    left: 170px;
+  }
+
+  #menu ul li {
+    font-size: 1.3rem;
+    padding: 1.2rem;
+  }
+
+  #arrow-toggle {
+    font-size: 2rem;
+    top: 1rem;
+    left: 1rem;
+  }
+
+h1 { 
+  font-size: 38px;
+}
+
+.info-container h2 {
+ font-size: 30px;
+}
+}
+@media screen and (max-width: 599px) {
+
+h1 {
+font-size: 28px;
+padding: 0px 40px 0px 40px;
+}
+.info-container h2 {
+font-size: 28px;
+padding: 0px 40px 0px 40px;
+}
+
+p, span, li {
+  font-size: 18px;
+  
+}
+.intro p {
+padding: 0px 40px 0px 40px;
+}
+
+.info-container p {
+padding: 0px 40px 0px 40px;
+}
+.info-cards {
+  display: flex;
+  flex-direction: column;
+}
+
+.intro h1 {
+text-align: center;
+padding: 0px 40px 0px 40px;
+
+}
+.claim {
+text-align: center;
+}
+.footer-content {
+    display: flex;
+    font-family: sans-serif;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.5;
+}
+.footer-content a{
+line-height: 1.5;
+}
+
+#menu {
+left: -140px;
+height: 100%;
+border-radius: 50px;
+}
+.menu-open{
+left: o;
+height: 150%;
+}
+#swiper {
+ 
+position: fixed;
+top: 0;
+left: -100;
+width: 250px;
+height: 100vh;
+display: block;
+border-radius: 40%;
+}
+
+#swipe-open {
+left: 100px;
+
+}
+#arrow-toggle {
+display: none;
+}
+
+.menu-titel{
+position: fixed;
+top: 10px;
+}
+
+#menu.open {
+position: fixed;
+}
+#menu-list {
+margin-top: 100px;
+}
+nav {
+position: fixed;
+}
+#menu ul {
+  padding: 100px 10px 0px 0px;
+}
+}
+@media screen and (max-width: 450px) {
+.menu-titel {
+margin-left: 30px;
+}
+}

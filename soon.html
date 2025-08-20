@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMING SOON</title>
+    <style>
+    html, body {
+    
+      margin: 0;
+    }
+    h1 {
+    display: none;
+    }
+    body {
+     
+      background-color: #F1E4D0;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    video {
+        height: 100px;
+        width: 100px;
+        border: 20%;
+    }
+    .wrapper {
+      max-width: 90%;
+      padding: 2rem;
+    }
+    .coming-soon-container video {
+    background-color: #2a303e;
+    width: 650px;
+    height: 450px;
+    border-radius: 10%;
+    box-shadow:0 4px 12px rgba(0, 0, 0, 0.6);
+    }
+    .coming-soon-container p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-bottom: 50px;
+    font-size: 28px;
+    color: #2a303e;
+    text-shadow: 3px -1px 4px #24211dc7;
+    
+}
+section {
+margin-top: 200px;
+}
+.back-btn{
+    padding-top: 50px;
+    
+    }
+.back-btn {
+    font-size: 18px;;
+    text-shadow: -3px 0px 2px #5449387d;
+    text-decoration: none;
+    color: #2a303e;
+    padding: 5px;
+    background-color: #F1E4D0;
+    border-radius: 20px;
+    box-shadow:0 4px 12px rgba(0, 0, 0, 0.6);
+    margin-top: 50px;
+}
+.back-btn:hover {
+transform: scale(0.90) ;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+footer {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 868px){
+        
+        .coming-soon-container p{
+        text-align: center;
+         font-size: 21px
+        }
+        .coming-soon-container Video {
+    
+        width: 250px;
+        height: 250px;
+        }
+    }
+
+  </style>
+</head>
+<body>
+    <section class="coming-soon-container">
+        <p>Diese Funktion ist noch in der Entwicklung</p>
+        <!--video bereich-->
+
+        <video autoplay muted loop playsinline>
+        <source class="video" src="./img/soon (3).mp4" type="video/mp4" />
+          
+        </video>
+        <div class="class">
+             <h1 translate="no" class="notranslate">COMING SOON</h1>
+             
+        </div>
+        <!-- Optional: Countdown -->
+        <div id="countdown"></div>
+      
+      <!-- Optional: Mail -->
+      <!-- <input type="email" placeholder="Trag dich ein…" />
+      <button>Benachrichtige mich</button> -->
+    </div>
+  
+    </section>
+
+
+</body>
+<footer>
+     <a href="/index.html" class="back-btn">ZUR HAUPTSEITE</a>
+</footer>     
+
+</html>
